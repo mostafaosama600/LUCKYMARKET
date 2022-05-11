@@ -430,7 +430,27 @@
             </div>
 
             <div class="page-body" id="home">
-                <section class="banner">
+
+
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="width: 100%; height: 100vh !important;">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/banners/banner4.jpg" class="d-block w-100" style="height: 90vh;" alt="...">
+                        <div class="carousel-caption d-none d-md-block new-carousel">
+                          <h2 class="new-title-carsoul" > <img src="img/icons/icons8-done-64.png" alt="">Luckey Market</h2>
+
+                        <div class="mouseScroll">
+                            <div class="botn"></div>
+                        </div>
+                        
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+
+
+                <!-- <section class="banner">
                     <div class="layer">
 
                         <h1>
@@ -444,7 +464,7 @@
                         </div>
 
                     </div>
-                </section>
+                </section> -->
 
                 <!-- START Update -->
                 <section class="navigation-platforms">
@@ -478,7 +498,7 @@
 
                         </div>
 
-                        <div class="filters container two-inputs">
+                        <!-- <div class="filters container two-inputs">
 
                             <form class="search-container">
                                 <input type="text" class="form-control" id="search" placeholder="Search">
@@ -490,13 +510,34 @@
                                 <input type="number" class="price-text" placeholder=" balance (to)" min="0" step="50">
 
                             </div>
+                        </div> -->
+
+                        <div class="container">
+                            <div class="row row-cols-4 row-cols-md-4 g-1">
+                                <div class="col-md-6">
+                                    <input type="search" id="inputSearch" class="form-control" aria-describedby="SearchHelpInline" placeholder="search for anything">
+                                  </div>
+
+                                <div class="col-md-2">
+                                  <input type="number" placeholder="budget (from)" min="0" step="50" id="inputSearch2" class="form-control" aria-describedby="SearchHelpInline2">
+                                </div>
+
+                                <div class="col-md-2">
+                                  <input type="number" placeholder="budget (to)" min="0" step="50" id="inputSearch1" class="form-control" aria-describedby="SearchHelpInline1">
+                                </div>
+                                <div class="col-md-2">
+                                    <button class="btn btn-danger w-75"> Search</button>
+                                </div>
+
+
+                              </div>
                         </div>
 
                     </nav>
                 </section>
                 <!-- END Update -->
 
-                <section class="tab-content" id="nav-tabContent">
+                <!-- <section class="tab-content" id="nav-tabContent">
 
                     <div class="tab-pane fade show active" id="nav-desktop" role="tabpanel"
                         aria-labelledby="nav-desktop-tab">
@@ -638,394 +679,533 @@
                         </div>
                     </div>
 
-                </section>
-
-                <section class="reviews">
-
-                    <!-- Swiper -->
-                    <div class="slider-container ">
-                        <div class="swiper   container reviewSlider">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide ">
-                                    <div class="review">
-                                        <div class="quote">
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eum
-                                                vero
-                                                dolor, esse omnis alias mollitia dicta consequuntur veniam tenetur
-                                                error,
-                                                maxime
-                                                sit
-                                            </p>
-                                            <div class="user">
-
-                                                <img src="img/icons/Customer Ratings.png" alt="profile">
-                                                <div class="text-right">
-                                                    <span class="testimonials-item__author">
-                                                        فيلكس عبد الغفور
-                                                    </span>
-                                                    <ul class="rating">
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide ">
-                                    <div class="review">
-                                        <div class="quote">
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eum
-                                                vero
-                                                dolor, esse omnis alias mollitia dicta consequuntur veniam tenetur
-                                                error.
-                                            </p>
-                                            <div class="user">
-
-                                                <img src="img/icons/Customer Ratings.png" alt="profile">
-                                                <div class="text-right">
-                                                    <span class="testimonials-item__author">
-                                                        السير فالفيردي
-                                                    </span>
-                                                    <ul class="rating">
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide ">
-                                    <div class="review">
-                                        <div class="quote">
-                                            <p>
-                                                dicta consequuntur veniam tenetur error, maxime
-                                                sit, molestiae labore molestias voluptas autem! Labore, sequi.
-                                            </p>
-                                            <div class="user">
-
-                                                <img src="img/icons/Customer Ratings.png" alt="profile">
-                                                <div class="text-right">
-                                                    <span class="testimonials-item__author">
-                                                        الأسطى عبده
-                                                    </span>
-                                                    <ul class="rating">
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide ">
-                                    <div class="review">
-                                        <div class="quote">
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eum
-                                                vero
-                                                dolor, esse omnis alias mollitia dicta consequuntur veniam tenetur
-                                                error,
-                                                maxime
-                                                sit, molestiae labore molestias voluptas autem! Labore, sequi.
-                                            </p>
-                                            <div class="user">
-
-                                                <img src="img/icons/Customer Ratings.png" alt="profile">
-                                                <div class="text-right">
-                                                    <span class="testimonials-item__author">
-                                                        رسلان زهانوف
-                                                    </span>
-                                                    <ul class="rating">
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="review">
-                                        <div class="quote">
-                                            <p>
-                                                esse omnis alias mollitia dicta consequuntur veniam tenetur error,
-                                                maxime
-                                                sit, molestiae labore molestias voluptas autem! Labore, sequi.
-                                            </p>
-                                            <div class="user">
-
-                                                <img src="img/icons/Customer Ratings.png" alt="profile">
-                                                <div class="text-right">
-                                                    <span class="testimonials-item__author">
-                                                        عادل إمام
-                                                    </span>
-                                                    <ul class="rating">
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="review">
-                                        <div class="quote">
-                                            <p>
-                                                maxime
-                                                sit, molestiae labore molestias voluptas autem! Labore, sequi.
-                                            </p>
-                                            <div class="user">
-
-                                                <img src="img/icons/Customer Ratings.png" alt="profile">
-                                                <div class="text-right">
-                                                    <span class="testimonials-item__author">
-                                                        ابن عادل إمام
-                                                    </span>
-                                                    <ul class="rating">
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="review">
-                                        <div class="quote">
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat tempora
-                                                soluta,
-                                                necessitatibus, culpa corporis perspiciatis cum architecto ad .
-                                            </p>
-                                            <div class="user">
-
-                                                <img src="img/icons/Customer Ratings.png" alt="profile">
-                                                <div class="text-right">
-                                                    <span class="testimonials-item__author">
-                                                        كلب جون ويك
-                                                    </span>
-                                                    <ul class="rating">
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="review">
-                                        <div class="quote">
-                                            <p>
-                                                esse omnis alias mollitia dicta consequuntur veniam tenetur error,
-                                                maxime
-                                                sit, molestiae labore molestias voluptas autem! Labore, sequi.
-                                            </p>
-                                            <div class="user">
-
-                                                <img src="img/icons/Customer Ratings.png" alt="profile">
-                                                <div class="text-right">
-                                                    <span class="testimonials-item__author">
-                                                        محمد سعدون الكواري
-                                                    </span>
-                                                    <ul class="rating">
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="review">
-                                        <div class="quote">
-                                            <p>
-                                                esse omnis alias mollitia dicta consequuntur veniam tenetur error,
-                                                maxime
-                                                sit, molestiae labore molestias voluptas autem! Labore, sequi.
-                                            </p>
-                                            <div class="user">
-
-                                                <img src="img/icons/Customer Ratings.png" alt="profile">
-                                                <div class="text-right">
-                                                    <span class="testimonials-item__author">
-                                                        محمد زيدان
-                                                    </span>
-                                                    <ul class="rating">
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="review">
-                                        <div class="quote">
-                                            <p>
-                                                esse omnis alias mollitia dicta consequuntur veniam tenetur error,
-                                                maxime
-                                                sit, molestiae Labore, sequi.
-                                            </p>
-                                            <div class="user">
-
-                                                <img src="img/icons/Customer Ratings.png" alt="profile">
-                                                <div class="text-right">
-                                                    <span class="testimonials-item__author">
-                                                        فادي عضلات
-                                                    </span>
-                                                    <ul class="rating">
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                        <li> <i class="fa fa-star star-on"></i></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Add Pagination -->
-                            <div class="swiper-pagination"></div>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="advantages container">
-                    <div class="row choose">
-                        <h1>
-                            store advantages
-                        </h1>
-
-                        <div class="col-6">
-                            <div class="reason">
-                                <div class="iconRoundWrap">
-                                    <div class="iconRound">
-                                        <i class="fas fa-shipping-fast"></i>
-                                    </div>
-                                </div>
-                                <div class="itemField">
-                                    <h3>
-                                        Charging Speed
-
-                                    </h3>
-                                    <div class="description">
-                                        <p>
-                                            Product Will Come To You In The Website Box Immediately After Payment, At
-                                            The
-                                            Same Moment
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-6">
-                            <div class="reason">
-                                <div class="iconRoundWrap">
-                                    <div class="iconRound">
-                                        <i class="far fa-money-bill-alt"></i>
-                                    </div>
-                                </div>
-                                <div class="itemField">
-                                    <h3>
-                                        High Quality Price For The Product
-
-                                    </h3>
-                                    <div class="description">
-                                        <p>
-                                            We Are Distinguished By The Cheapest Prices, The Honesty Of The Description,
-                                            Daily Discounts And Multiple Payment Methods
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-6">
-                            <div class="reason">
-                                <div class="iconRoundWrap">
-                                    <div class="iconRound">
-                                        <i class="fas fa-tools"></i>
-                                    </div>
-                                </div>
-                                <div class="itemField">
-                                    <h3>
-                                        Support Is Always Available
-                                    </h3>
-                                    <div class="description">
-                                        <p>
-                                            In The Event Of Any Problems With The Accounts, Please Contact Technical
-                                            Support. We Provide You With More Than One Way To Communicate: (Telegram -
-                                            Instagram - Facebook - Discord - Direct Chat On The Site - Store Mail)
+                </section> -->
 
 
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-6">
-                            <div class="reason">
-                                <div class="iconRoundWrap">
-                                    <div class="iconRound">
-                                        <i class="fas fa-shield-alt"></i>
-                                    </div>
-                                </div>
-                                <div class="itemField">
-                                    <h3>
-                                        Account Security
-                                    </h3>
-                                    <div class="description">
-                                        <p>
-                                            All Accounts In All Offers Are Checked Every Hour To Ensure Our Customers
-                                            The
-                                            Integrity Of The Account
-
-
-
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </section>
             </div>
 
         </div>
+
+        <div class="container prod-cuts">
+            <div class="row row-cols-2 row-cols-md-4 g-4">
+
+                <div class="col">
+                <div class="card">
+                    <img src="img/products/913244366_1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Random calculation of the second season</h5>
+                    <div class="ra">
+                        <span class="fa fa-star readrating checked "></span>
+                        <span class="fa fa-star readrating checked "></span>
+                        <span class="fa fa-star readrating checked "></span>
+                        <span class="fa fa-star readrating"></span>
+                        <span class="fa fa-star readrating"></span>
+                    </div>
+                    <div class="btn-group card_footer" role="group">
+                        <a href="#0" class="btn details" data-bs-toggle="modal"
+                            data-bs-target="#modalInfo">
+                            <i class="fas fa-scroll"></i>
+                            <input type="button" name="details" class="btn" value="Product Description">
+                        </a>
+                        <a href="#0" class="btn addtocart">
+                            <i class="fas fa-cart-plus"></i>
+                            <input type="button" name="add_to_cart"
+                                class="btn btn-success form-control add_to_cart"
+                                value="إضافة إلى العربة">
+                        </a>
+                        <div class="price-t">200 EGP</div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card">
+                    <img src="img/products/913244366_1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Random calculation of the second season</h5>
+                        <div class="ra">
+                        <span class="fa fa-star readrating checked "></span>
+                        <span class="fa fa-star readrating checked "></span>
+                        <span class="fa fa-star readrating checked "></span>
+                        <span class="fa fa-star readrating"></span>
+                        <span class="fa fa-star readrating"></span>
+                    </div>
+                    <div class="btn-group card_footer" role="group">
+                        <a href="#0" class="btn details" data-bs-toggle="modal"
+                            data-bs-target="#modalInfo">
+                            <i class="fas fa-scroll"></i>
+                            <input type="button" name="details" class="btn" value="Product Description">
+                        </a>
+                        <a href="#0" class="btn addtocart">
+                            <i class="fas fa-cart-plus"></i>
+                            <input type="button" name="add_to_cart"
+                                class="btn btn-success form-control add_to_cart"
+                                value="إضافة إلى العربة">
+                        </a>
+                        <div class="price-t">200 EGP</div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                    <img src="img/products/913244366_1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Random calculation of the second season</h5>
+                        <div class="ra">
+                        <span class="fa fa-star readrating checked "></span>
+                        <span class="fa fa-star readrating checked "></span>
+                        <span class="fa fa-star readrating checked "></span>
+                        <span class="fa fa-star readrating"></span>
+                        <span class="fa fa-star readrating"></span>
+                    </div>
+                    <div class="btn-group card_footer" role="group">
+                        <a href="#0" class="btn details" data-bs-toggle="modal"
+                            data-bs-target="#modalInfo">
+                            <i class="fas fa-scroll"></i>
+                            <input type="button" name="details" class="btn" value="Product Description">
+                        </a>
+                        <a href="#0" class="btn addtocart">
+                            <i class="fas fa-cart-plus"></i>
+                            <input type="button" name="add_to_cart"
+                                class="btn btn-success form-control add_to_cart"
+                                value="إضافة إلى العربة">
+                        </a>
+                        <div class="price-t">200 EGP</div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card">
+                    <img src="img/products/913244366_1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Random calculation of the second season</h5>
+                        <div class="ra">
+                        <span class="fa fa-star readrating checked "></span>
+                        <span class="fa fa-star readrating checked "></span>
+                        <span class="fa fa-star readrating checked "></span>
+                        <span class="fa fa-star readrating"></span>
+                        <span class="fa fa-star readrating"></span>
+                    </div>
+                    <div class="btn-group card_footer" role="group">
+                        <a href="#0" class="btn details" data-bs-toggle="modal"
+                            data-bs-target="#modalInfo">
+                            <i class="fas fa-scroll"></i>
+                            <input type="button" name="details" class="btn" value="Product Description">
+                        </a>
+                        <a href="#0" class="btn addtocart">
+                            <i class="fas fa-cart-plus"></i>
+                            <input type="button" name="add_to_cart"
+                                class="btn btn-success form-control add_to_cart"
+                                value="إضافة إلى العربة">
+                        </a>
+                        <div class="price-t">200 EGP</div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <section class="reviews">
+
+            <!-- Swiper -->
+            <div class="slider-container ">
+                <div class="swiper   container reviewSlider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide ">
+                            <div class="review">
+                                <div class="quote">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eum
+                                        vero
+                                        dolor, esse omnis alias mollitia dicta consequuntur veniam tenetur
+                                        error,
+                                        maxime
+                                        sit
+                                    </p>
+                                    <div class="user">
+
+                                        <img src="img/icons/Customer Ratings.png" alt="profile">
+                                        <div class="text-right">
+                                            <span class="testimonials-item__author">
+                                                فيلكس عبد الغفور
+                                            </span>
+                                            <ul class="rating">
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="review">
+                                <div class="quote">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eum
+                                        vero
+                                        dolor, esse omnis alias mollitia dicta consequuntur veniam tenetur
+                                        error.
+                                    </p>
+                                    <div class="user">
+
+                                        <img src="img/icons/Customer Ratings.png" alt="profile">
+                                        <div class="text-right">
+                                            <span class="testimonials-item__author">
+                                                السير فالفيردي
+                                            </span>
+                                            <ul class="rating">
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="review">
+                                <div class="quote">
+                                    <p>
+                                        dicta consequuntur veniam tenetur error, maxime
+                                        sit, molestiae labore molestias voluptas autem! Labore, sequi.
+                                    </p>
+                                    <div class="user">
+
+                                        <img src="img/icons/Customer Ratings.png" alt="profile">
+                                        <div class="text-right">
+                                            <span class="testimonials-item__author">
+                                                الأسطى عبده
+                                            </span>
+                                            <ul class="rating">
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="review">
+                                <div class="quote">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eum
+                                        vero
+                                        dolor, esse omnis alias mollitia dicta consequuntur veniam tenetur
+                                        error,
+                                        maxime
+                                        sit, molestiae labore molestias voluptas autem! Labore, sequi.
+                                    </p>
+                                    <div class="user">
+
+                                        <img src="img/icons/Customer Ratings.png" alt="profile">
+                                        <div class="text-right">
+                                            <span class="testimonials-item__author">
+                                                رسلان زهانوف
+                                            </span>
+                                            <ul class="rating">
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review">
+                                <div class="quote">
+                                    <p>
+                                        esse omnis alias mollitia dicta consequuntur veniam tenetur error,
+                                        maxime
+                                        sit, molestiae labore molestias voluptas autem! Labore, sequi.
+                                    </p>
+                                    <div class="user">
+
+                                        <img src="img/icons/Customer Ratings.png" alt="profile">
+                                        <div class="text-right">
+                                            <span class="testimonials-item__author">
+                                                عادل إمام
+                                            </span>
+                                            <ul class="rating">
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review">
+                                <div class="quote">
+                                    <p>
+                                        maxime
+                                        sit, molestiae labore molestias voluptas autem! Labore, sequi.
+                                    </p>
+                                    <div class="user">
+
+                                        <img src="img/icons/Customer Ratings.png" alt="profile">
+                                        <div class="text-right">
+                                            <span class="testimonials-item__author">
+                                                ابن عادل إمام
+                                            </span>
+                                            <ul class="rating">
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review">
+                                <div class="quote">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat tempora
+                                        soluta,
+                                        necessitatibus, culpa corporis perspiciatis cum architecto ad .
+                                    </p>
+                                    <div class="user">
+
+                                        <img src="img/icons/Customer Ratings.png" alt="profile">
+                                        <div class="text-right">
+                                            <span class="testimonials-item__author">
+                                                كلب جون ويك
+                                            </span>
+                                            <ul class="rating">
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review">
+                                <div class="quote">
+                                    <p>
+                                        esse omnis alias mollitia dicta consequuntur veniam tenetur error,
+                                        maxime
+                                        sit, molestiae labore molestias voluptas autem! Labore, sequi.
+                                    </p>
+                                    <div class="user">
+
+                                        <img src="img/icons/Customer Ratings.png" alt="profile">
+                                        <div class="text-right">
+                                            <span class="testimonials-item__author">
+                                                محمد سعدون الكواري
+                                            </span>
+                                            <ul class="rating">
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review">
+                                <div class="quote">
+                                    <p>
+                                        esse omnis alias mollitia dicta consequuntur veniam tenetur error,
+                                        maxime
+                                        sit, molestiae labore molestias voluptas autem! Labore, sequi.
+                                    </p>
+                                    <div class="user">
+
+                                        <img src="img/icons/Customer Ratings.png" alt="profile">
+                                        <div class="text-right">
+                                            <span class="testimonials-item__author">
+                                                محمد زيدان
+                                            </span>
+                                            <ul class="rating">
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review">
+                                <div class="quote">
+                                    <p>
+                                        esse omnis alias mollitia dicta consequuntur veniam tenetur error,
+                                        maxime
+                                        sit, molestiae Labore, sequi.
+                                    </p>
+                                    <div class="user">
+
+                                        <img src="img/icons/Customer Ratings.png" alt="profile">
+                                        <div class="text-right">
+                                            <span class="testimonials-item__author">
+                                                فادي عضلات
+                                            </span>
+                                            <ul class="rating">
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                                <li> <i class="fa fa-star star-on"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="advantages container">
+            <div class="row choose">
+                <h1>
+                    store advantages
+                </h1>
+
+                <div class="col-6">
+                    <div class="reason">
+                        <div class="iconRoundWrap">
+                            <div class="iconRound">
+                                <i class="fas fa-shipping-fast"></i>
+                            </div>
+                        </div>
+                        <div class="itemField">
+                            <h3>
+                                Charging Speed
+
+                            </h3>
+                            <div class="description">
+                                <p>
+                                    Product Will Come To You In The Website Box Immediately After Payment, At
+                                    The
+                                    Same Moment
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="reason">
+                        <div class="iconRoundWrap">
+                            <div class="iconRound">
+                                <i class="far fa-money-bill-alt"></i>
+                            </div>
+                        </div>
+                        <div class="itemField">
+                            <h3>
+                                High Quality Price For The Product
+
+                            </h3>
+                            <div class="description">
+                                <p>
+                                    We Are Distinguished By The Cheapest Prices, The Honesty Of The Description,
+                                    Daily Discounts And Multiple Payment Methods
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="reason">
+                        <div class="iconRoundWrap">
+                            <div class="iconRound">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                        </div>
+                        <div class="itemField">
+                            <h3>
+                                Support Is Always Available
+                            </h3>
+                            <div class="description">
+                                <p>
+                                    In The Event Of Any Problems With The Accounts, Please Contact Technical
+                                    Support. We Provide You With More Than One Way To Communicate: (Telegram -
+                                    Instagram - Facebook - Discord - Direct Chat On The Site - Store Mail)
+
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="reason">
+                        <div class="iconRoundWrap">
+                            <div class="iconRound">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                        </div>
+                        <div class="itemField">
+                            <h3>
+                                Account Security
+                            </h3>
+                            <div class="description">
+                                <p>
+                                    All Accounts In All Offers Are Checked Every Hour To Ensure Our Customers
+                                    The
+                                    Integrity Of The Account
+
+
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
         <footer class="page-footer text-muted text-center text-small">
             <div class="py-4">
